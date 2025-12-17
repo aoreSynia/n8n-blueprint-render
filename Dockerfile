@@ -4,7 +4,6 @@ FROM n8nio/n8n:1.64.0
 USER root
 
 RUN npm install --omit=optional\
-  n8n-nodes-discord-trigger-new \
-  n8n-nodes-discord-dnd
+  n8n-nodes-discord-trigger-new 
   
 USER node
